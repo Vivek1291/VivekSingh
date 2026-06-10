@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import Layout from './layouts/Layout'
 import Loading from './components/Loading'
@@ -13,7 +13,7 @@ const ContactPage = lazy(() => import('./pages/Contact'))
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <Layout>
         <Suspense fallback={<Loading />}>
           <Routes>
@@ -26,6 +26,6 @@ export default function App() {
           </Routes>
         </Suspense>
       </Layout>
-    </Router>
+    </HashRouter>
   )
 }

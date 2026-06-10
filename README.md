@@ -1,166 +1,80 @@
-# Vivek Kumar Singh - Professional Portfolio
+# Vivek Kumar Singh | Lead Frontend Developer
 
-A modern, multi-page portfolio website built with React, TypeScript, React Router, and Tailwind CSS with lazy loading for optimal performance.
-
-## Features
-
-✅ **Multi-Page Application** - Separate pages with lazy loading for better performance  
-✅ **Clean Design** - Modern, intuitive UI with excellent user experience  
-✅ **Responsive** - Works perfectly on mobile, tablet, and desktop  
-✅ **Fast Loading** - Route-based code splitting with React lazy loading  
-✅ **Professional** - SEO optimized and production-ready  
-✅ **Easy to Customize** - Well-organized code structure  
-
-## Project Structure
-
-```
-src/
-├── pages/              # Route pages (Home, About, Experience, etc.)
-│   ├── Home.tsx
-│   ├── About.tsx
-│   ├── Experience.tsx
-│   ├── Projects.tsx
-│   ├── Skills.tsx
-│   └── Contact.tsx
-├── components/         # Shared components
-│   ├── Header.tsx
-│   ├── Footer.tsx
-│   └── Loading.tsx
-├── layouts/            # Layout components
-│   └── Layout.tsx
-├── App.tsx            # Router setup
-├── main.tsx           # React entry
-└── index.css          # Global styles
-```
-
-## Getting Started
-
-### Prerequisites
-- Node.js 16+ 
-- npm or yarn
-
-### Installation
-
-1. **Extract the portfolio**
-```bash
-cd vivek-portfolio-pro
-```
-
-2. **Install dependencies**
-```bash
-npm install
-```
-
-3. **Start development server**
-```bash
-npm run dev
-```
-The app opens at `http://localhost:3000`
-
-## Development
-
-### Available Scripts
-
-```bash
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## Pages
-
-- **Home** (`/`) - Landing page with hero, highlights, and stats
-- **About** (`/about`) - About me and core values
-- **Experience** (`/experience`) - Work experience and roles
-- **Projects** (`/projects`) - Featured projects with details
-- **Skills** (`/skills`) - Technical skills and expertise
-- **Contact** (`/contact`) - Contact information and methods
-
-## Technology Stack
-
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **React Router v6** - Client-side routing with lazy loading
-- **Tailwind CSS** - Styling
-- **Vite** - Build tool
-- **Lucide React** - Icons
-
-## Performance Features
-
-✅ **Lazy Loading** - Pages load on demand via React.lazy()  
-✅ **Code Splitting** - Route-based bundle splitting  
-✅ **Suspense** - Loading states for better UX  
-✅ **Fast Initial Load** - Minimal bundle for home page  
-
-## Customization
-
-### Change Your Name/Contact
-1. Edit Header: `src/components/Header.tsx`
-2. Edit Footer: `src/components/Footer.tsx`
-3. Edit Contact page: `src/pages/Contact.tsx`
-
-### Update Content
-- Edit respective page files in `src/pages/`
-- Update colors in `tailwind.config.ts`
-- Modify layouts in `src/layouts/`
-
-### Add New Pages
-1. Create page file in `src/pages/NewPage.tsx`
-2. Add route in `src/App.tsx`:
-```tsx
-const NewPage = lazy(() => import('./pages/NewPage'))
-
-<Route path="/new-page" element={<NewPage />} />
-```
-3. Add navigation link in `Header.tsx`
-
-## Deployment
-
-### Vercel (Recommended)
-```bash
-npm install -g vercel
-vercel
-```
-
-### Other Options
-- **Netlify** - Connect GitHub repo, auto-deploys
-- **GitHub Pages** - Add base in vite.config.ts, deploy
-- **Firebase** - `firebase deploy`
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Performance Metrics
-
-- **Initial Load:** < 1s
-- **Lighthouse Score:** 95+
-- **Bundle Size:** ~100KB (gzipped)
-- **Route Loading:** < 200ms
-
-## SEO
-
-✅ Meta tags in HTML  
-✅ Semantic HTML structure  
-✅ Open Graph ready  
-✅ Mobile optimized  
-
-## License
-
-MIT - Feel free to use for your portfolio
-
-## Questions?
-
-Check the documentation or reach out!
+[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/vivek-kr-5737411a2/) 
+📍 Delhi, India | ✉️ viveksingh1291@gmail.com | 📱 +91 9650037240
 
 ---
 
-**Happy coding! 🚀**
+## 🚀 Professional Summary
+Tech professional with **over 8 years of experience** in frontend development, architecture, and team leadership. Specialized in creating high-performance, responsive user interfaces, scaling web applications from scratch, and leading cross-functional engineering teams. Expert in the React ecosystem, real-time data streaming (SSE), and advanced performance optimization.
+
+### 🌐 Live Portfolio
+👉 **[View My Live Portfolio & Interactive Projects Here](https://github.io)**
+
+---
+
+## 🛠️ Technical Expertise
+
+- **Core Frontend:** React.js, JavaScript (ES6+), TypeScript, Next.js (Exposure), Angular/AngularJS
+- **State Management & Data:** Redux Toolkit, Zustand, React Context API, React Query, Axios
+- **Real-Time & APIs:** Server-Sent Events (SSE), RESTful APIs integration
+- **Styling & UI:** CSS3, SASS, Tailwind CSS, Material UI (MUI)
+- **Build & Tooling:** Vite, Webpack, Babel, ESLint
+- **CI/CD & DevOps:** GitHub Actions, Jenkins, Docker (Conceptual)
+- **Testing & Monitoring:** Jest, React Testing Library, React Profiler, Lighthouse, Sentry, Posthog
+- **Specialized Libraries:** JointJS, Chart.js
+
+---
+
+## 📈 Key Career Highlights & Impact
+
+### 🔹 Lead Frontend Developer @ DigitalPaani (10/2024 – 11/2025)
+*   **Web SCADA++:** Architected an interactive tool for real-time equipment simulation and plant workflow designs.
+*   **Real-time Optimization:** Implemented Server-Sent Events (SSE) to stream live sensor data seamlessly to the UI.
+*   **Performance:** Boosted application load time by **40%** using code splitting, lazy loading, and build tool optimizations.
+*   **DevOps:** Designed automated test, build, and deployment pipelines using GitHub Actions.
+
+### 🔹 Senior Software Engineer (Founding Member) @ Done Deal (05/2023 – 07/2024)
+*   **Greenfield Architecture:** Scaled the core frontend from absolute scratch utilizing React.js and Redux Toolkit.
+*   **Team Mentorship:** Built, guided, and structured a small frontend team, enforcing clean code architectures and strict code reviews.
+
+### 🔹 Senior Software Engineer @ Dotpe (11/2020 – 05/2023)
+*   **Scalable Retail Apps:** Led the development of a React-based POS billing app used by over 5,000 merchants.
+*   **Loyalty Systems:** Built a high-traffic dine-in loyalty engine serving over 50,000 merchants, driving engagement and customer retention.
+
+---
+
+## 💻 About This Portfolio Site
+This application serves as a living resume and deep-dive technical playground showcasing my production-level capabilities.
+
+### Key Features Implemented:
+*   **Vite-powered Dev Loop:** Leverages Vite for instantaneous Hot Module Replacement (HMR).
+*   **Automated CI/CD:** Integrated via GitHub Actions to compile, test, and auto-deploy changes to GitHub Pages on every `push` to `main`.
+*   **Responsive layouts:** Highly semantic layouts utilizing Tailwind CSS/MUI suited for all modern viewports.
+
+---
+
+## ⚙️ Local Setup and Installation
+
+To spin up this portfolio project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Vivek1291/VivekSingh.git
+   cd VivekSingh
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build production bundle:**
+   ```bash
+   npm run build
+   ```
