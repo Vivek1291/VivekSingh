@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import Layout from './layouts/Layout'
 import Loading from './components/Loading'
