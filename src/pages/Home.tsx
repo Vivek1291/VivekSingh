@@ -72,7 +72,8 @@ export default function Home() {
               </Link>
             </motion.div>
             <motion.a
-              href="/vivek-resume.pdf"
+              href={`${import.meta.env.BASE_URL}/vivek-resume.pdf`}
+              
               download="vivek-resume.pdf"
               className="btn-primary inline-flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
