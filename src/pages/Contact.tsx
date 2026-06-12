@@ -5,7 +5,7 @@ export default function Contact() {
   const contactMethods = [
     { icon: Mail, label: 'Email', value: 'viveksingh1291@gmail.com', link: 'mailto:viveksingh1291@gmail.com' },
     { icon: Linkedin, label: 'LinkedIn', value: 'vivek-kumar-singh-5737411a2', link: 'https://www.linkedin.com/in/vivek-kumar-singh-5737411a2/' },
-    { icon: Github, label: 'GitHub', value: '@viveksingh', link: 'https://github.com' },
+    { icon: Github, label: 'GitHub', value: '@Vivek1291', link: 'https://github.com/Vivek1291/' },
     { icon: Phone, label: 'Phone', value: '+91-9650037240', link: 'tel:+919650037240' },
   ]
 

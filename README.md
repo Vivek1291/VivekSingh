@@ -1,6 +1,6 @@
 # Vivek Kumar Singh | Lead Frontend Developer
 
-[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/vivek-kr-5737411a2/) 
+[![LinkedIn](https://shields.io)](https://www.linkedin.com/in/vivek-kumar-singh-5737411a2/) 
 📍 Delhi, India | ✉️ viveksingh1291@gmail.com | 📱 +91 9650037240
 
 ---
@@ -9,7 +9,7 @@
 Tech professional with **over 8 years of experience** in frontend development, architecture, and team leadership. Specialized in creating high-performance, responsive user interfaces, scaling web applications from scratch, and leading cross-functional engineering teams. Expert in the React ecosystem, real-time data streaming (SSE), and advanced performance optimization.
 
 ### 🌐 Live Portfolio
-👉 **[View My Live Portfolio & Interactive Projects Here](https://github.io)**
+👉 **[View My Live Portfolio & Interactive Projects Here](https://vivek1291.github.io/VivekSingh)**
 
 ---
 

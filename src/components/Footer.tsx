@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Mail, Github, Linkedin, ArrowUp } from 'lucide-react'
-import { useLocation } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Footer() {
   const location = useLocation()
@@ -37,10 +37,10 @@ export default function Footer() {
           >
             <h4 className="text-white font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm text-slate-400">
-              <li><a href="/" className="hover:text-blue-400 transition">Home</a></li>
-              <li><a href="/projects" className="hover:text-blue-400 transition">Projects</a></li>
-              <li><a href="/experience" className="hover:text-blue-400 transition">Experience</a></li>
-              <li><a href="/contact" className="hover:text-blue-400 transition">Contact</a></li>
+              <li><Link to="/" className="hover:text-blue-400 transition">Home</Link></li>
+              <li><Link to="/projects" className="hover:text-blue-400 transition">Projects</Link></li>
+              <li><Link to="/experience" className="hover:text-blue-400 transition">Experience</Link></li>
+              <li><Link to="/contact" className="hover:text-blue-400 transition">Contact</Link></li>
             </ul>
           </motion.div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
               <motion.a
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                href="https://linkedin.com/in/vivek-kr-5737411a2"
+                href="https://linkedin.com/in/vivek-kumar-singh-5737411a2/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 rounded-lg text-slate-300 hover:text-blue-400 hover:bg-slate-700 transition"
@@ -73,7 +73,7 @@ export default function Footer() {
               <motion.a
                 whileHover={{ y: -5, scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                href="https://github.com"
+                href="https://github.com/Vivek1291/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-slate-800 rounded-lg text-slate-300 hover:text-blue-400 hover:bg-slate-700 transition"
