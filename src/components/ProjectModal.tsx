@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence, type Variants } from 'framer-motion'
 import { X } from 'lucide-react'
 
 interface ProjectModalProps {
@@ -17,12 +17,12 @@ interface ProjectModalProps {
 export default function ProjectModal({ isOpen, onClose, project }: ProjectModalProps) {
   if (!project) return null
 
-  const backdropVariants = {
+  const backdropVariants: Variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1 },
   }
 
-  const modalVariants = {
+  const modalVariants: Variants = {
     hidden: {
       opacity: 0,
       scale: 0.8,

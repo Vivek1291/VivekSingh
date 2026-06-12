@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { ExternalLink } from 'lucide-react'
 import { useState } from 'react'
 import ProjectModal from '../components/ProjectModal';
 
