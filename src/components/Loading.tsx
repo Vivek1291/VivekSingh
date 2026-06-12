@@ -1,12 +1,13 @@
+import { motion } from 'framer-motion'
+
 export default function Loading() {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <div className="inline-block">
-          <div className="w-12 h-12 border-4 border-gray-200 border-t-blue-600 rounded-full animate-spin"></div>
-        </div>
-        <p className="mt-4 text-gray-600">Loading...</p>
-      </div>
+      <motion.div
+        animate={{ rotate: 360 }}
+        transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
+        className="w-16 h-16 border-4 border-slate-700 border-t-blue-500 rounded-full"
+      />
     </div>
   )
 }

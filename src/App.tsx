@@ -3,17 +3,19 @@ import { Suspense, lazy } from 'react'
 import Layout from './layouts/Layout'
 import Loading from './components/Loading'
 
-// Lazy load pages for better performance
 const HomePage = lazy(() => import('./pages/Home'))
 const AboutPage = lazy(() => import('./pages/About'))
 const ExperiencePage = lazy(() => import('./pages/Experience'))
 const ProjectsPage = lazy(() => import('./pages/Projects'))
 const SkillsPage = lazy(() => import('./pages/Skills'))
 const ContactPage = lazy(() => import('./pages/Contact'))
+import ScrollToTop from './components/ScrollToTop';
+import './styles/skills.scss';
 
 export default function App() {
   return (
     <Router basename="/VivekSingh">
+      <ScrollToTop />
       <Layout>
         <Suspense fallback={<Loading />}>
           <Routes>
