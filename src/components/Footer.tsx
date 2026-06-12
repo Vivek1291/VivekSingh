@@ -86,7 +86,7 @@ export default function Footer() {
 
         {/* Bottom Footer */}
         <div className="flex justify-between items-center text-sm text-slate-400">
-          <p>&copy; 2024 Vivek Kumar Singh. All rights reserved.</p>
+          <p>&copy; 2026 Vivek Kumar Singh. All rights reserved.</p>
           {location.pathname !== '/' && (
             <motion.button
               whileHover={{ y: -3 }}
