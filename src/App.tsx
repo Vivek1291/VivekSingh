@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
 import Layout from './layouts/Layout'
 import Loading from './components/Loading'
@@ -14,7 +14,7 @@ import './styles/skills.scss';
 
 export default function App() {
   return (
-    <Router basename="/VivekSingh">
+    <HashRouter>
       <ScrollToTop />
       <Layout>
         <Suspense fallback={<Loading />}>
@@ -28,6 +28,6 @@ export default function App() {
           </Routes>
         </Suspense>
       </Layout>
-    </Router>
+    </HashRouter>
   )
 }
